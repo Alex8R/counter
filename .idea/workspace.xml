@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="206f0032-689c-4e8f-a71b-262e1351c191" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Display.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SetCounterDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,11 @@
       <workItem from="1609601416476" duration="6820000" />
       <workItem from="1609680364688" duration="259000" />
       <workItem from="1609762165872" duration="3000" />
+      <workItem from="1609872883774" duration="264000" />
+      <workItem from="1610035506269" duration="1025000" />
+      <workItem from="1610391546974" duration="486000" />
+      <workItem from="1611065399351" duration="3167000" />
+      <workItem from="1611168731353" duration="5152000" />
     </task>
     <servers />
   </component>

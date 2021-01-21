@@ -7,22 +7,26 @@
   font-size: 2rem;
 }
 
-.wrapper {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
   min-width: 400px;
   min-height: 350px;
   background: silver;
   border: 1px solid aquamarine;
   border-radius: 8px;
 }
-
+.container:not(:last-child) {
+  margin-right: 10px;
+}
 .display {
   min-width: 300px;
+  max-width: 300px;
+  margin: 0 auto 20px;
   padding: 30px;
-  margin-bottom: 20px;
   text-align: center;
   background: aqua;
   border: 1px solid aquamarine;
@@ -51,6 +55,10 @@ button {
   transition: transform .3s ease;
 }
 
+button:not(:last-child) {
+  margin-right: 10px;
+}
+
 button:active {
   transform: scale(.95);
 }
@@ -60,4 +68,28 @@ button:disabled {
   background: gray;
   opacity: .5;
   border: 1px solid gray;
+}
+
+.setMode > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.setMode span {
+  min-width: 147px;
+}
+.setMode input[type="number"] {
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.error input {
+  outline: red;
+  border-color: red;
 }
